@@ -9,9 +9,9 @@ __export(require('./interact-dropzone'));
 __export(require('./interact-gesturable'));
 __export(require('./interact-resizable'));
 __export(require('./resizable'));
-var interact_1 = require('interact');
+var Interact = require('interact');
 function configure(aurelia, options) {
-    aurelia.container.registerInstance('Interact', interact_1.Interact);
+    aurelia.container.registerInstance('Interact', Interact);
     var attributes = [
         './interact-draggable',
         './interact-dropzone',

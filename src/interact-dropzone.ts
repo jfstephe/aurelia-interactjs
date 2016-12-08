@@ -1,5 +1,5 @@
 import { inject } from 'aurelia-framework';
-import { Interact } from 'interact';
+import * as Interact from 'interact';
 import InteractBase from './interact-base';
 
 @inject(Element, Interact)

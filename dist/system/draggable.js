@@ -15,15 +15,15 @@ System.register(['aurelia-framework', 'interact', './interact-base'], function(e
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var aurelia_framework_1, interact_1, interact_base_1;
+    var aurelia_framework_1, Interact, interact_base_1;
     var DraggableCustomAttribute;
     return {
         setters:[
             function (aurelia_framework_1_1) {
                 aurelia_framework_1 = aurelia_framework_1_1;
             },
-            function (interact_1_1) {
-                interact_1 = interact_1_1;
+            function (Interact_1) {
+                Interact = Interact_1;
             },
             function (interact_base_1_1) {
                 interact_base_1 = interact_base_1_1;
@@ -54,7 +54,7 @@ System.register(['aurelia-framework', 'interact', './interact-base'], function(e
                     });
                 };
                 DraggableCustomAttribute = __decorate([
-                    aurelia_framework_1.inject(Element, interact_1.Interact), 
+                    aurelia_framework_1.inject(Element, Interact), 
                     __metadata('design:paramtypes', [])
                 ], DraggableCustomAttribute);
                 return DraggableCustomAttribute;

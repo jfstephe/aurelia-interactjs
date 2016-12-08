@@ -1,3 +1,8 @@
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/eriklieben/aurelia-interactjs/compare/v2.0.2...v2.0.3) (2016-12-08)
+
+
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/eriklieben/aurelia-interactjs/compare/v1.0.6...v2.0.2) (2016-12-08)
 

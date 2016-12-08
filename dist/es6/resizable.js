@@ -12,7 +12,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-define(["require", "exports", 'aurelia-framework', 'interact', './interact-base'], function (require, exports, aurelia_framework_1, interact_1, interact_base_1) {
+define(["require", "exports", 'aurelia-framework', 'interact', './interact-base'], function (require, exports, aurelia_framework_1, Interact, interact_base_1) {
     "use strict";
     var ResizableCustomAttribute = (function (_super) {
         __extends(ResizableCustomAttribute, _super);
@@ -49,7 +49,7 @@ define(["require", "exports", 'aurelia-framework', 'interact', './interact-base'
             });
         };
         ResizableCustomAttribute = __decorate([
-            aurelia_framework_1.inject(Element, interact_1.Interact), 
+            aurelia_framework_1.inject(Element, Interact), 
             __metadata('design:paramtypes', [])
         ], ResizableCustomAttribute);
         return ResizableCustomAttribute;

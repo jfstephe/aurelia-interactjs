@@ -14,7 +14,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var aurelia_framework_1 = require('aurelia-framework');
-var interact_1 = require('interact');
+var Interact = require('interact');
 var interact_base_1 = require('./interact-base');
 var InteractGesturableCustomAttribute = (function (_super) {
     __extends(InteractGesturableCustomAttribute, _super);
@@ -31,7 +31,7 @@ var InteractGesturableCustomAttribute = (function (_super) {
             .on('gestureend', function (event) { return _this.dispatch('interact-gestureend', event); });
     };
     InteractGesturableCustomAttribute = __decorate([
-        aurelia_framework_1.inject(Element, interact_1.Interact), 
+        aurelia_framework_1.inject(Element, Interact), 
         __metadata('design:paramtypes', [])
     ], InteractGesturableCustomAttribute);
     return InteractGesturableCustomAttribute;
